@@ -1,27 +1,31 @@
 <!-- ================================================================== -->
 <!-- SHIV RAJ  ·  DFIR  ·  SOC OPERATIONS  ·  DIGITAL FORENSICS        -->
-<!-- github.com/Jar258  ·  Profile README                                -->
+<!-- github.com/Jar258  ·  Profile README  ·  v2                        -->
 <!-- ================================================================== -->
+
+<!-- HEADER BANNER — wave with name + subtitle baked in -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050d1a,100:0d1117&height=220&section=header&text=SHIV%20RAJ&fontSize=60&fontColor=00D4FF&animation=fadeIn&fontAlignY=38&desc=DFIR%20Analyst%20%C2%B7%20SOC%20Operations%20%C2%B7%20Digital%20Forensics%20%C2%B7%20Incident%20Response&descAlignY=62&descSize=18&descColor=8B949E"/>
 
 <div align="center">
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=1300&color=00D4FF&center=true&vCenter=true&width=520&lines=Digital+Forensics+%26+Incident+Response;SOC+Operations+%26+Threat+Detection;Turning+incidents+into+evidence;Tracing+adversaries.+Reconstructing+timelines.)](https://git.io/typing-svg)
+<!-- Typing animation — punchy investigator lines, NOT repeating the title above -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=1300&color=00D4FF&center=true&vCenter=true&width=580&lines=Tracing+adversaries.+Reconstructing+timelines.;From+raw+pcap+to+incident+report.;From+memory+dump+to+attacker+timeline.;Built+for+DFIR.+Ready+for+SOC.)](https://git.io/typing-svg)
 
 <br/>
 
-# SHIV RAJ
-
-`DFIR Analyst  ·  SOC Operations  ·  Digital Forensics  ·  Incident Response`
+![Profile Views](https://komarev.com/ghpvc/?username=Jar258&color=00D4FF&style=flat-square&label=PROFILE+VIEWS)
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shiv_Raj-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shiv-raj-b9aa1a352)
-&nbsp;&nbsp;
+&nbsp;
 [![Email](https://img.shields.io/badge/Email-shivraj2662%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:shivraj2662@gmail.com)
-&nbsp;&nbsp;
-[![Location](https://img.shields.io/badge/📍_Agra,_India-2D9CDB?style=flat-square)](https://maps.app.goo.gl/)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-Jar258-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Jar258)
+&nbsp;
+[![Location](https://img.shields.io/badge/📍-Agra,_India-555555?style=flat-square)](https://maps.app.goo.gl/)
 
 <br/><br/>
 
@@ -33,11 +37,11 @@
 
 ## ◈ &nbsp;ABOUT
 
-Digital Forensics and Incident Response professional building hands-on expertise across the full incident lifecycle — from evidence acquisition and memory forensics through network investigation, detection engineering, and structured threat reporting.
+DFIR practitioner with hands-on expertise across the full incident lifecycle — evidence acquisition, memory and disk forensics, network analysis, detection engineering, and formal threat reporting. I work where raw technical investigation meets structured intelligence output.
 
-I work with an investigator's mindset: every disk artifact is evidence, every packet capture is a timeline waiting to be reconstructed, and every alert is the beginning of a story that must be documented precisely and completely.
+Every disk artifact is evidence. Every packet capture is a timeline waiting to be reconstructed. Every alert is the beginning of an investigation that must be documented precisely and reported completely.
 
-**Current engagement:** DFIR Ransomware Investigation Lab — covering initial compromise through encryption, persistence, and exfiltration artifacts, with full MITRE ATT&CK technique mapping and formal investigation reporting at each phase.
+**Building now:** DFIR Ransomware Investigation Lab — a multi-phase investigation covering initial compromise through encryption, persistence artifacts, and exfiltration indicators, with full MITRE ATT&CK mapping and formal investigation reporting at each phase.
 
 <br/>
 
@@ -149,63 +153,55 @@ Behavioral Detection
 
 ## ◈ &nbsp;FEATURED INVESTIGATIONS
 
-> Each repository documents a structured investigation with defined methodology, technical findings, and actionable detection outputs.
+> Each repository documents a complete investigation: scenario, step-by-step methodology, technical findings, extracted IOCs, and MITRE ATT&CK mapping.
 
 <br/>
 
+<!-- FIX: <h4> HTML tags used instead of ### markdown — ### does NOT render inside <td> cells on GitHub -->
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-
-### 🔐 &nbsp;[DFIR · Ransomware Investigation Lab](https://github.com/Jar258/Jar258)
-*Active Investigation Lab*
-
-End-to-end ransomware incident simulation. Documents initial compromise indicators, persistence mechanisms, memory forensics (process injection, encryption keys, command history), disk acquisition, deleted artifact recovery, and IOC extraction — with full MITRE ATT&CK mapping and formal investigation report.
-
-**Tools:** `Volatility 3` &nbsp;`FTK Imager` &nbsp;`Autopsy` &nbsp;`MITRE ATT&CK T1486`
-
+<h4>🔐 &nbsp;<a href="https://github.com/Jar258/Jar258">DFIR · Ransomware Investigation Lab</a> &nbsp;<kbd>ACTIVE</kbd></h4>
+<p><em>End-to-end ransomware incident simulation across five phases: evidence acquisition, memory forensics (process injection, encryption keys), disk forensics (MFT, registry, event logs), IOC extraction, and formal MITRE ATT&CK mapped investigation report.</em></p>
+<p><code>Volatility 3</code> &nbsp;·&nbsp; <code>FTK Imager</code> &nbsp;·&nbsp; <code>Autopsy</code> &nbsp;·&nbsp; <code>MITRE ATT&CK T1486</code></p>
 </td>
 <td width="50%" valign="top">
-
-### 📡 &nbsp;[SOC · Network Traffic Investigation](https://github.com/Jar258/network-traffic-investigation-wireshark)
-*Network Forensics Lab*
-
-Multi-scenario pcap analysis covering C2 beaconing patterns, DNS tunneling, data exfiltration indicators, and lateral movement behavior. Complete Wireshark and Zeek analysis pipeline with IOC extraction and per-scenario documentation.
-
-**Tools:** `Wireshark` &nbsp;`Zeek` &nbsp;`tcpdump` &nbsp;`IOC Analysis`
-
+<h4>📡 &nbsp;<a href="https://github.com/Jar258/network-traffic-investigation-wireshark">SOC · Network Traffic Investigation</a> &nbsp;<kbd>COMPLETE</kbd></h4>
+<p><em>Multi-scenario pcap analysis pipeline covering C2 beaconing, DNS tunneling, data exfiltration patterns, and lateral movement behavior. Full Wireshark and Zeek analysis with per-scenario IOC documentation and detection notes.</em></p>
+<p><code>Wireshark</code> &nbsp;·&nbsp; <code>Zeek</code> &nbsp;·&nbsp; <code>tcpdump</code> &nbsp;·&nbsp; <code>IOC Analysis</code></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-### 📧 &nbsp;[SOC · Phishing Investigation & IOC Analysis](https://github.com/Jar258/phishing-email-investigation-and-ioc-analysis)
-*Email Threat Investigation*
-
-Structured phishing campaign analysis: header parsing, sending infrastructure identification, URL defanging, attachment examination, and threat intel correlation across VirusTotal and open-source feeds. Includes IOC documentation framework and incident response playbook.
-
-**Tools:** `Email Forensics` &nbsp;`VirusTotal` &nbsp;`Threat Intel` &nbsp;`IOC Reporting`
-
+<h4>📧 &nbsp;<a href="https://github.com/Jar258/phishing-email-investigation-and-ioc-analysis">SOC · Phishing Investigation &amp; IOC Analysis</a> &nbsp;<kbd>COMPLETE</kbd></h4>
+<p><em>Full phishing campaign investigation: header parsing, sending infrastructure identification, URL defanging, attachment examination, and multi-source threat intel correlation. Structured IOC report and response playbook included.</em></p>
+<p><code>Email Header Analysis</code> &nbsp;·&nbsp; <code>VirusTotal</code> &nbsp;·&nbsp; <code>Threat Intel</code> &nbsp;·&nbsp; <code>IOC Reporting</code></p>
 </td>
 <td width="50%" valign="top">
-
-### 🛡️ &nbsp;[SEC · Vulnerability Assessment & Remediation](https://github.com/Jar258/vulnerability-assessment-and-remediation)
-*Security Assessment Lab*
-
-Systematic assessment workflow: host discovery, service enumeration, vulnerability identification, CVSS v3 risk scoring, remediation prioritization, and post-remediation validation. Documented assessment report with evidence artifacts at each stage.
-
-**Tools:** `Nmap` &nbsp;`CVE Analysis` &nbsp;`CVSS v3` &nbsp;`Remediation Docs`
-
+<h4>🛡️ &nbsp;<a href="https://github.com/Jar258/vulnerability-assessment-and-remediation">SEC · Vulnerability Assessment &amp; Remediation</a> &nbsp;<kbd>COMPLETE</kbd></h4>
+<p><em>Systematic assessment workflow: host discovery, service enumeration, vulnerability identification, CVSS v3 risk scoring, prioritized remediation, and post-remediation validation with documented evidence artifacts.</em></p>
+<p><code>Nmap</code> &nbsp;·&nbsp; <code>CVE Analysis</code> &nbsp;·&nbsp; <code>CVSS v3</code> &nbsp;·&nbsp; <code>Remediation Docs</code></p>
 </td>
 </tr>
 </table>
 
 <br/>
 
-#### Additional Projects
-
-- **[🔒 Windows Firewall Hardening & Validation](https://github.com/Jar258/windows-firewall-hardening-and-validation)** — Firewall policy configuration, rule auditing, inbound/outbound control validation, and security baseline documentation for Windows environments.
-- **[🔍 Network Reconnaissance with Nmap](https://github.com/Jar258/network-reconnaissance-nmap)** — Systematic network scanning methodology, service enumeration, OS fingerprinting, and vulnerability surface mapping with structured output reporting.
+<!-- FIX: Additional projects moved from inconsistent bullet list → proper 2-col table -->
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<b>🔒 &nbsp;<a href="https://github.com/Jar258/windows-firewall-hardening-and-validation">Windows Firewall Hardening &amp; Validation</a></b>
+<br/><br/>
+Firewall policy hardening, rule validation, inbound/outbound control auditing, and security baseline implementation for Windows environments with compliance documentation.
+</td>
+<td width="50%" valign="top">
+<b>🔍 &nbsp;<a href="https://github.com/Jar258/network-reconnaissance-nmap">Network Reconnaissance with Nmap</a></b>
+<br/><br/>
+Structured recon methodology covering host discovery, port enumeration, service fingerprinting, OS detection, and vulnerability surface mapping with structured output reporting.
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -278,17 +274,49 @@ current = {
 
 ## ◈ &nbsp;CONNECT
 
+<div align="center">
+
+<br/>
+
 Open to DFIR roles, SOC analyst positions, and security investigation opportunities.
 
-**LinkedIn →** &nbsp;[linkedin.com/in/shiv-raj-b9aa1a352](https://www.linkedin.com/in/shiv-raj-b9aa1a352)  
-**Email &nbsp;&nbsp;&nbsp;&nbsp;→** &nbsp;[shivraj2662@gmail.com](mailto:shivraj2662@gmail.com)
-
 <br/>
 
----
+<!-- Large CTA buttons — more visual weight than plain text links -->
+<a href="https://www.linkedin.com/in/shiv-raj-b9aa1a352">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="mailto:shivraj2662@gmail.com">
+  <img src="https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
 
-<div align="center">
-<br/>
-<sub>Agra, India &nbsp;&nbsp;·&nbsp;&nbsp; Investigator &nbsp;&nbsp;·&nbsp;&nbsp; Analyst &nbsp;&nbsp;·&nbsp;&nbsp; Builder</sub>
 <br/><br/>
+
+<sub>Response within 24 hours &nbsp;·&nbsp; Open to remote and on-site roles</sub>
+
+<br/>
+
 </div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  OPTIONAL: GitHub Contribution Snake Animation                     -->
+<!--  1. Create .github/workflows/snake.yml in this repo               -->
+<!--  2. Add Platane/snk@v3 action (see GITHUB_ARCHITECTURE.md)        -->
+<!--  3. Run the action once to generate the SVG output                 -->
+<!--  4. Uncomment the block below:                                     -->
+<!--                                                                    -->
+<!--  <picture>                                                         -->
+<!--    <source media="(prefers-color-scheme: dark)"                   -->
+<!--      srcset="https://raw.githubusercontent.com/Jar258/Jar258/output/github-contribution-grid-snake-dark.svg">  -->
+<!--    <source media="(prefers-color-scheme: light)"                  -->
+<!--      srcset="https://raw.githubusercontent.com/Jar258/Jar258/output/github-contribution-grid-snake.svg">  -->
+<!--    <img alt="GitHub contribution snake"                            -->
+<!--      src="https://raw.githubusercontent.com/Jar258/Jar258/output/github-contribution-grid-snake.svg">  -->
+<!--  </picture>                                                        -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+<br/>
+
+<!-- FOOTER BANNER — matching footer wave -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050d1a,100:0d1117&height=120&section=footer"/>
